@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Projetos</title>
+</head>
+<body>
+
+    <!-- Barra de navegações da página! -->
+
+    <header id="page-top">
+
+        <div>
+            <img src="https://i.ibb.co/7tcrpRx/Snapchat-1074638833.jpg" alt="foto de perfil" id="profile-photo">
+        </div>
+
+        <button onclick = "{window.location.href = 'index.html'}">Sobre mim</button>
+
+        <button onclick = "{window.location.href = 'training.html'}">Formação</button>
+
+        <button onclick = "{window.location.href = 'portfolio.html'}">Portfólio</button>
+
+        <button onclick="{window.location.href = 'contact.html'}">Contato</button>
+    </header>
+
+        <!-- Uma div para guardar todo conteúdo da página! -->
+
+       <div id="container">
+
+        <!-- Uma div para dividir o texto de apresentação da página! Seperando as informações -->
+
+        <div id="apresentation">
+            <p>Nesta página, estarão alguns projetos desenvolvidos por mim!<br> É importante lembrar que alguns deles foram desenvolvidos no começo dos meus estudos, então algum site pode estar com informações desatualizadas!<br><span>Clique no nome dos itens para visitar os projetos.</span></p>
+        </div>
+
+        <!-- Informações postas em tabelas! -->
+
+        <table id="about-me">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><a href="https://web-oblivio.vercel.app" target="_blank">Oblivio - Web</a></th>
+                    <td>Este é o protótipo em funcionamento da parte web do meu tcc! Esta parte somente funcionará em 100%, quando conectada com o aplicativo desenvolvido!</td>
+                </tr>
+                <tr>
+                    <th><a href="https://portfolio-react-one-mu.vercel.app" target="_blank">Portfólio antigo</a></th>
+                    <td>Esse portfólio, ou CV - Online, foi feito para um trabalho no meu curso técnico! <span>Todas as informações estão desatualizadas e o link dos projetos ali não funcionam mais!</span><br> É importante ressaltar que todos aqueles projetos realmente existiram!</td>
+                </tr>
+                <tr>
+                    <th>
+                        <a href="https://oblivio-api.vercel.app" target="_blank">API - Oblivio</a>
+                    </th>
+                    <td>Aqui está minha prória API, ponte com o banco de dados, que eu criei! Funcionando até hoje, com hospedagem online e conectada ao banco de dados! <span>Se deseja testar, digite após o link: /cuidador/list ou /paciente/list. Isso devolverá um objeto JSON!</span></td>
+                </tr>
+                <tr>
+                    <th><a href="https://github.com/DanielBConcordia?tab=repositories" target="_blank">Extras</a></th>
+                    <td>Se desejar ver algumas outras coisas, ou os códigos desses projetos, este é o link do meu github! <span>Obs: Lá esta também, o aplicativo do meu TCC! É necessário algumas configurações para que ele funcione!</span></td>
+                </tr>
+            </tbody>
+           </table>
+       </div>
+</body>
+</html>

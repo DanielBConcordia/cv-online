@@ -1,0 +1,109 @@
+/* Estilização global da página */
+* {
+    margin: 0px;
+    background-color: #7C539B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+/* Estilizando o cabeçalho da página */
+
+#page-top {
+    border-bottom: solid 1px #fff;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+/* Estilizando o conteúdo da págigna */
+
+#container {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450;
+}
+
+/* estilizando a imagem do cabeçalho */
+
+#profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-right: 4px;
+    left: -400%;
+    border: solid 1px #FFF;
+    box-shadow:  2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Definindo uma estilização própria para todos os botões da página */
+
+button {
+    width: 10%;
+    height:  30px;
+    margin: 5px;
+    border-radius: 9px;
+    border: solid 1px #fcfcfc;
+    background-color: #4c1675;
+    box-shadow:  inset 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/* Estilizando a tabela inteira */
+
+#about-me {
+    text-align: center;
+    height: 400px;
+    width: 450px;
+    padding-top: 25px;
+    justify-content: center;
+    color: #1b012e;
+    border-radius: 10px;
+}
+
+/* Estilizando as linhas e colunas da tabela */
+
+thead, th, td {
+    border: solid 2px #fff;
+    border-radius: 10px;
+}
+
+/* Estilizando o texto de apresentação */
+
+#apresentation {
+    padding-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    width: 360px;
+    padding-top: 25px;
+    color: #1b012e;
+    border-radius: 10px;
+    border: solid #fff 2px;
+    margin-right: 150px;
+    box-shadow:  2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+span {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #1b012e;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1b012e;
+}
